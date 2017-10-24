@@ -1,0 +1,12 @@
+<resources>
+    <string name="co_my_app_name">AndroidComponentizateArchitecture</string>
+    <string name="co_my_my_tab">我的分类</string>
+    <string name="co_my_str_tv_all">全部分类</string>
+    <string name="co_my_str_tv_ask">问答</string>
+    <string name="co_my_str_tv_share">分享</string>
+    <string name="co_my_str_tv_job">招聘</string>
+    <string name="co_my_str_tv_good">精华</string>
+    <string name="co_my_str_about_me">关于</string>
+    <string name="co_my_str_default">关于</string>
+    <string name="co_my_str_share_not_finish">分享功能还未完成，敬请期待！</string>
+</resources>

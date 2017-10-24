@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">组件化</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">发现</string>
+    <string name="title_notifications">我的</string>
+</resources>

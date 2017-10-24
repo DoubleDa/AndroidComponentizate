@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dip"
+            android:text="@string/co_my_my_tab"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/tv_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="5dip"
+            android:drawableRight="@drawable/co_my_ic_back_right"
+            android:text="@string/co_my_str_tv_all" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="#dbdbdb" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dip"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_ask"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/co_my_ic_ask"
+            android:gravity="center"
+            android:text="@string/co_my_str_tv_ask" />
+
+        <TextView
+            android:id="@+id/tv_share"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/co_my_ic_share"
+            android:gravity="center"
+            android:text="@string/co_my_str_tv_share" />
+
+        <TextView
+            android:id="@+id/tv_job"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/co_my_ic_work"
+            android:gravity="center"
+            android:text="@string/co_my_str_tv_job" />
+
+        <TextView
+            android:id="@+id/tv_good"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/co_my_ic_good"
+            android:gravity="center"
+            android:text="@string/co_my_str_tv_good" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="#dbdbdb" />
+
+    <TextView
+        android:id="@+id/tv_about_me"
+        android:layout_width="match_parent"
+        android:layout_height="42dip"
+        android:layout_marginLeft="10dip"
+        android:gravity="center_vertical"
+        android:text="@string/co_my_str_about_me" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="#dbdbdb" />
+</LinearLayout>

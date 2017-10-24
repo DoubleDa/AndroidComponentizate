@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TitleBar-->
+    <declare-styleable name="LibViewMyCustomTitleBar">
+        <attr name="lib_view_title_bar_text" format="string"></attr>
+        <attr name="lib_view_title_bar_text_bg" format="color"></attr>
+        <attr name="lib_view_title_bar_text_color" format="color"></attr>
+    </declare-styleable>
+</resources>

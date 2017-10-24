@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.dyx.aca.co.newsdetail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.dyx.aca.lib.view.CustomTitleBar
+        android:id="@+id/custom_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_bar_text="@string/co_newsdetail_str_default"
+        app:title_bar_text_bg="@color/co_newsdetail_title_bar_bg"
+        app:title_bar_text_color="@color/co_newsdetail_title_bar_text_color" />
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

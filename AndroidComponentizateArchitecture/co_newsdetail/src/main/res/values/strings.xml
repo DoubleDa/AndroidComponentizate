@@ -1,0 +1,5 @@
+<resources>
+    <string name="co_newsdetail_app_name">AndroidComponentizateArchitecture</string>
+    <string name="co_newsdetail_str_default">详情</string>
+    <string name="co_newsdetail_str_share_not_finish">分享功能还未完成，敬请期待！</string>
+</resources>

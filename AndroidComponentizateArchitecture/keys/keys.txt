@@ -1,0 +1,3 @@
+key store password:qwertyuiop
+key alias:dyx
+key password:qwertyuiop

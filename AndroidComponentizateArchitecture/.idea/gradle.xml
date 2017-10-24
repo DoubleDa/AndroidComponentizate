@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/co_discover" />
+            <option value="$PROJECT_DIR$/co_index" />
+            <option value="$PROJECT_DIR$/co_my" />
+            <option value="$PROJECT_DIR$/co_newsdetail" />
+            <option value="$PROJECT_DIR$/co_order" />
+            <option value="$PROJECT_DIR$/lib_img" />
+            <option value="$PROJECT_DIR$/lib_net" />
+            <option value="$PROJECT_DIR$/lib_utils" />
+            <option value="$PROJECT_DIR$/lib_view" />
+            <option value="$PROJECT_DIR$/module_base" />
+            <option value="$PROJECT_DIR$/module_common" />
+            <option value="$PROJECT_DIR$/module_constants" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
