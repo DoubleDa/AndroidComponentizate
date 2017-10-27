@@ -1,15 +1,28 @@
-# AndroidComponentizate
+# Android组件化
+
 This is a android componentizate project.
+## 下载应用
+
+- 蒲公英
+
+![](https://www.pgyer.com/app/qrcode/TICb)
+## 使用到的开源框架
+
+- [ActivityRouter](https://github.com/mzule/ActivityRouter)
+- [ButterKnife](https://github.com/JakeWharton/butterknife)
+- [Glide](https://github.com/bumptech/glide)
+- [RxJava](https://github.com/ReactiveX/RxJava)
+- [Retrofit](https://github.com/square/retrofit)
+
 
 ## 版本信息
 
 v1.0.1
 
-- 组件化架构
-- 实现简单App
+- 新闻聚合；
+- 实现组件化架构；
+- 组件之间跳转与通信实现；
 
-
-## TODO
 
 ## License
 ```
