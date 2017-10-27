@@ -1,11 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
 
     package="com.dyx.aca.co.newsdetail">
 
     <application
         android:allowBackup="true"
-        android:label="@string/app_name"
-        android:supportsRtl="true">
+        android:label="@string/co_newsdetail_app_name"
+        android:supportsRtl="true"
+        tools:replace="android:label">
         <activity android:name=".NewsDetailActivity" />
     </application>
 

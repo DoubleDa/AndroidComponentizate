@@ -1,1 +1,1 @@
-include ':app', ':co_index', ':co_discover', ':co_my', ':co_newsdetail', ':co_order', ':lib_utils', ':lib_img', ':lib_net', ':module_common', ':lib_view', ':module_base', ':module_constants'
+include ':app', ':co_index', ':co_discover', ':co_my', ':co_newsdetail', ':co_order', ':lib_utils', ':lib_img', ':lib_net', ':module_common', ':lib_view', ':module_base', ':module_constants', ':co_settings'

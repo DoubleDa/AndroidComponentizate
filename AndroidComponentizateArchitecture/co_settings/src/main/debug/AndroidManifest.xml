@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.dyx.aca.co.settings">
+
+    <application
+        android:name="debug.SettingsApplication"
+        android:allowBackup="true"
+        android:label="@string/co_settings_app_name"
+        android:supportsRtl="true"
+        android:theme="@style/co_settings_AppTheme">
+        <activity android:name=".SettingsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

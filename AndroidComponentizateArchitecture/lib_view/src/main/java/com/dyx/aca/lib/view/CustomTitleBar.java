@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+
 /**
  * Author：dayongxin
  * Function：
@@ -53,7 +54,7 @@ public class CustomTitleBar extends RelativeLayout {
     }
 
     private void initView(Context context) {
-        View view = LayoutInflater.from(context).inflate(R.layout.lib_view_view_title_bar_layout, this, true);
+        View view = LayoutInflater.from(context).inflate(R.layout.view_title_bar_layout, this, true);
         rlRoot = (RelativeLayout) view.findViewById(R.id.rl_root);
         ivLeft = (ImageView) view.findViewById(R.id.iv_left);
         tvTitlle = (TextView) view.findViewById(R.id.tv_titlle);
@@ -83,6 +84,8 @@ public class CustomTitleBar extends RelativeLayout {
     }
 
     public void setTitle(String title) {
-        tvTitlle.setText(title);
+        if (null != tvTitlle && !TextUtils.isEmpty(title)) {
+            tvTitlle.setText(title);
+        }
     }
 }

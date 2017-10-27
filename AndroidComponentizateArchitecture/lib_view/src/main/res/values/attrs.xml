@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--TitleBar-->
-    <declare-styleable name="LibViewMyCustomTitleBar">
-        <attr name="lib_view_title_bar_text" format="string"></attr>
-        <attr name="lib_view_title_bar_text_bg" format="color"></attr>
-        <attr name="lib_view_title_bar_text_color" format="color"></attr>
+    <attr name="title_bar_text" format="string" />
+    <attr name="title_bar_text_bg" format="color|integer" />
+    <attr name="title_bar_text_color" format="color|integer" />
+    <declare-styleable name="MyCustomTitleBar">
+        <attr name="title_bar_text" />
+        <attr name="title_bar_text_bg" />
+        <attr name="title_bar_text_color" />
     </declare-styleable>
 </resources>

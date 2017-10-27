@@ -1,7 +1,17 @@
 # AndroidComponentizate
 This is a android componentizate project.
-## License
 
+## 版本信息
+
+v1.0.1
+
+- 组件化架构
+- 实现简单App
+
+
+## TODO
+
+## License
 ```
 Copyright 2017 DoubleDa
 

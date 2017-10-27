@@ -3,6 +3,7 @@ if (rootProject.ext.isApp) {
 } else {
     apply plugin: 'com.android.library'
 }
+apply plugin: 'android-apt'
 
 android {
     compileSdkVersion rootProject.ext.android.compileSdkVersion
@@ -54,4 +55,7 @@ dependencies {
     compile project(':module_constants')
     compile project(':lib_view')
     compile project(':lib_utils')
+    compile project(':co_settings')
+    compile rootProject.ext.dependencies.activityrouter
+    apt rootProject.ext.dependencies.activityrouterCompiler
 }

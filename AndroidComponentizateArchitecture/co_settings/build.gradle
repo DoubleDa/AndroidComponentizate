@@ -1,0 +1,60 @@
+if (rootProject.ext.isApp) {
+    apply plugin: 'com.android.application'
+} else {
+    apply plugin: 'com.android.library'
+}
+apply plugin: 'android-apt'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+        if (rootProject.ext.isApp) {
+            applicationId "com.dyx.aca.co.settings"
+        } else {
+
+        }
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        resourcePrefix "co_settings_"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            if (rootProject.ext.isApp) {
+                //Application
+                manifest.srcFile 'src/main/debug/AndroidManifest.xml'
+            } else {
+                //Library
+                manifest.srcFile 'src/main/release/AndroidManifest.xml'
+                //移除debug无用资源
+                java {
+                    exclude 'debug/**'
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:26.+'
+    testCompile 'junit:junit:4.12'
+    compile project(':lib_view')
+    compile project(':module_base')
+    compile project(':lib_utils')
+    compile rootProject.ext.dependencies.activityrouter
+    apt rootProject.ext.dependencies.activityrouterCompiler
+}

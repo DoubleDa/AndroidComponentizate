@@ -3,7 +3,11 @@ package com.dyx.aca.co.my;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
+import android.webkit.WebResourceRequest;
+import android.webkit.WebResourceResponse;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 import com.dyx.aca.lib.utils.ToastUtils;
 import com.dyx.aca.lib.view.CustomTitleBar;
@@ -25,8 +29,8 @@ public class AboutMeActivity extends BaseActivity {
     }
 
     private void initView() {
-        customTitleBar = (CustomTitleBar) findViewById(R.id.custom_title_bar);
         webView = (WebView) findViewById(R.id.web_view);
+        customTitleBar = (CustomTitleBar) findViewById(R.id.custom_title_bar);
         if (customTitleBar != null) {
             customTitleBar.setLeftClickListener(new View.OnClickListener() {
                 @Override
@@ -41,6 +45,24 @@ public class AboutMeActivity extends BaseActivity {
                 }
             });
         }
+        WebSettings settings = webView.getSettings();
+        settings.setJavaScriptEnabled(true);
+        webView.setWebViewClient(new WebViewClient() {
+            @Override
+            public void onPageFinished(WebView view, String url) {
+                super.onPageFinished(view, url);
+            }
+
+            @Override
+            public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
+                return super.shouldInterceptRequest(view, request);
+            }
+
+            @Override
+            public WebResourceResponse shouldInterceptRequest(WebView view, String url) {
+                return super.shouldInterceptRequest(view, url);
+            }
+        });
         webView.loadUrl("file:///android_asset/AboutMe.html");
     }
 }

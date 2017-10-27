@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.dyx.aca.module.base.BaseFragment;
 import com.dyx.aca.module.constants.ClassConstants;
+import com.github.mzule.activityrouter.router.Routers;
 
 /**
  * Author：dayongxin
@@ -21,6 +22,7 @@ public class MyFragment extends BaseFragment implements View.OnClickListener {
     private TextView tvShare;
     private TextView tvJob;
     private TextView tvGood;
+    private TextView tvSettings;
 
     @Nullable
     @Override
@@ -37,12 +39,14 @@ public class MyFragment extends BaseFragment implements View.OnClickListener {
         tvJob = view.findViewById(R.id.tv_job);
         tvGood = view.findViewById(R.id.tv_good);
         tvAboutMe = view.findViewById(R.id.tv_about_me);
+        tvSettings = view.findViewById(R.id.tv_settings);
         tvAll.setOnClickListener(this);
         tvAsk.setOnClickListener(this);
         tvShare.setOnClickListener(this);
         tvJob.setOnClickListener(this);
         tvGood.setOnClickListener(this);
         tvAboutMe.setOnClickListener(this);
+        tvSettings.setOnClickListener(this);
     }
 
     @Override
@@ -60,6 +64,14 @@ public class MyFragment extends BaseFragment implements View.OnClickListener {
             intentToForName(getActivity(), ClassConstants.CLASS_ORDER_ACTIVITY, ClassConstants.BUNDLE_TAB, ClassConstants.BUNDLE_GOOD);
         } else if (id == R.id.tv_about_me) {
             intentTo(AboutMeActivity.class);
+        } else if (id == R.id.tv_settings) {
+            /**
+             * 使用ActivityRouter进行跳转通信
+             */
+            //方式一：使用类名
+//            intentToForName(getActivity(), ClassConstants.CLASS_SETTINGS_ACTIVITY);
+            //方式二：使用框架ActivityRouter
+            Routers.open(getActivity(), "dayongxin://settings?name=dayongxin");
         }
     }
 

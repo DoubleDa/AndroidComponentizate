@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res／com.dyx.aca.co.my"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -9,7 +9,7 @@
         android:id="@+id/custom_title_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:title_bar_text="@string/co_my_str_default"
+        app:title_bar_text="@string/co_my_str_about_me"
         app:title_bar_text_bg="@color/co_my_title_bar_bg"
         app:title_bar_text_color="@color/co_my_title_bar_text_color" />
 

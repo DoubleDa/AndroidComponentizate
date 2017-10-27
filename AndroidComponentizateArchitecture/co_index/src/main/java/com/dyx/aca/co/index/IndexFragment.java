@@ -13,6 +13,7 @@ import com.dyx.aca.lib.net.ApiConstants;
 import com.dyx.aca.lib.net.ApiService;
 import com.dyx.aca.lib.net.FieldConstants;
 import com.dyx.aca.lib.net.model.index.IndexBean;
+import com.dyx.aca.lib.view.DividerItemDecoration;
 import com.dyx.aca.module.base.BaseFragment;
 import com.dyx.aca.module.constants.ClassConstants;
 

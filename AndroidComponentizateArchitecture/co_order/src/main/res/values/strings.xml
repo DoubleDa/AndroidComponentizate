@@ -2,4 +2,9 @@
     <string name="co_order_app_name">AndroidComponentizateArchitecture</string>
     <string name="co_order_str_default">问答</string>
     <string name="co_order_str_share_not_finish">分享功能还未完成，敬请期待！</string>
+    <string name="co_order_job">工作</string>
+    <string name="co_order_ask">问答</string>
+    <string name="co_order_share">分享</string>
+    <string name="co_order_good">精华</string>
+    <string name="co_order_all">全部</string>
 </resources>

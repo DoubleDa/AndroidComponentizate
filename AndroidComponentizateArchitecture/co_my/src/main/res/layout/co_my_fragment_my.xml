@@ -86,6 +86,21 @@
         android:background="#dbdbdb" />
 
     <TextView
+        android:id="@+id/tv_settings"
+        android:layout_width="match_parent"
+        android:layout_height="42dip"
+        android:layout_marginLeft="10dip"
+        android:gravity="center_vertical"
+        android:text="@string/co_my_str_tv_settings" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="#dbdbdb" />
+
+    <TextView
         android:id="@+id/tv_about_me"
         android:layout_width="match_parent"
         android:layout_height="42dip"

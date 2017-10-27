@@ -1,0 +1,7 @@
+<resources>
+    <string name="co_settings_app_name">AndroidComponentizateArchitecture</string>
+    <string name="co_settings_tv_is_show_img">是否显示图片？</string>
+    <string name="co_settings_str_share_not_finish">分享功能还未完成，敬请期待！</string>
+    <string name="co_settings_settings_title">设置中心</string>
+    <string name="co_settings_from_data">通过ActivityRouter传递数据为：</string>
+</resources>

@@ -16,6 +16,7 @@ import com.dyx.aca.lib.net.FieldConstants;
 import com.dyx.aca.lib.net.model.index.IndexBean;
 import com.dyx.aca.lib.utils.ToastUtils;
 import com.dyx.aca.lib.view.CustomTitleBar;
+import com.dyx.aca.lib.view.DividerItemDecoration;
 import com.dyx.aca.module.base.BaseFragment;
 import com.dyx.aca.module.constants.ClassConstants;
 
@@ -63,7 +64,7 @@ public class OrderFragment extends BaseFragment {
                     ToastUtils.showShort(getActivity(), getString(R.string.co_order_str_share_not_finish));
                 }
             });
-            customTitleBar.setTitle(tabIntent);
+            customTitleBar.setTitle(getTitleByTab(tabIntent));
         }
         recyclerView = view.findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
@@ -97,6 +98,21 @@ public class OrderFragment extends BaseFragment {
                 }
             }
         });
+    }
+
+    private String getTitleByTab(String tabIntent) {
+        if (tabIntent.equalsIgnoreCase("job")) {
+            return getString(R.string.co_order_job);
+        } else if (tabIntent.equalsIgnoreCase("ask")) {
+            return getString(R.string.co_order_ask);
+        } else if (tabIntent.equalsIgnoreCase("share")) {
+            return getString(R.string.co_order_share);
+        } else if (tabIntent.equalsIgnoreCase("good")) {
+            return getString(R.string.co_order_good);
+        } else if (tabIntent.equalsIgnoreCase("all")) {
+            return getString(R.string.co_order_all);
+        }
+        return "";
     }
 
     private void initRv(List<IndexBean.DataEntity> data) {

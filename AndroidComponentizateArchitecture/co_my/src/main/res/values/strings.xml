@@ -9,4 +9,5 @@
     <string name="co_my_str_about_me">关于</string>
     <string name="co_my_str_default">关于</string>
     <string name="co_my_str_share_not_finish">分享功能还未完成，敬请期待！</string>
+    <string name="co_my_str_tv_settings">设置</string>
 </resources>

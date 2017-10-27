@@ -1,4 +1,4 @@
-package com.dyx.aca.co.index;
+package com.dyx.aca.lib.view;
 
 /*
  * Copyright (C) 2014 The Android Open Source Project
