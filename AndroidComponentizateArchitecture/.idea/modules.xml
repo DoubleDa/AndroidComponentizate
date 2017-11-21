@@ -3,19 +3,34 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidComponentizateArchitecture.iml" filepath="$PROJECT_DIR$/AndroidComponentizateArchitecture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidComponentizateArchitecture.iml" filepath="$PROJECT_DIR$/AndroidComponentizateArchitecture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/co_discover/co_discover.iml" filepath="$PROJECT_DIR$/co_discover/co_discover.iml" />
+      <module fileurl="file://$PROJECT_DIR$/co_discover/co_discover.iml" filepath="$PROJECT_DIR$/co_discover/co_discover.iml" />
+      <module fileurl="file://$PROJECT_DIR$/co_index/co_index.iml" filepath="$PROJECT_DIR$/co_index/co_index.iml" />
       <module fileurl="file://$PROJECT_DIR$/co_index/co_index.iml" filepath="$PROJECT_DIR$/co_index/co_index.iml" />
       <module fileurl="file://$PROJECT_DIR$/co_my/co_my.iml" filepath="$PROJECT_DIR$/co_my/co_my.iml" />
+      <module fileurl="file://$PROJECT_DIR$/co_my/co_my.iml" filepath="$PROJECT_DIR$/co_my/co_my.iml" />
+      <module fileurl="file://$PROJECT_DIR$/co_newsdetail/co_newsdetail.iml" filepath="$PROJECT_DIR$/co_newsdetail/co_newsdetail.iml" />
       <module fileurl="file://$PROJECT_DIR$/co_newsdetail/co_newsdetail.iml" filepath="$PROJECT_DIR$/co_newsdetail/co_newsdetail.iml" />
       <module fileurl="file://$PROJECT_DIR$/co_order/co_order.iml" filepath="$PROJECT_DIR$/co_order/co_order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/co_order/co_order.iml" filepath="$PROJECT_DIR$/co_order/co_order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/co_settings/co_settings.iml" filepath="$PROJECT_DIR$/co_settings/co_settings.iml" />
       <module fileurl="file://$PROJECT_DIR$/co_settings/co_settings.iml" filepath="$PROJECT_DIR$/co_settings/co_settings.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_img/lib_img.iml" filepath="$PROJECT_DIR$/lib_img/lib_img.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_img/lib_img.iml" filepath="$PROJECT_DIR$/lib_img/lib_img.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_net/lib_net.iml" filepath="$PROJECT_DIR$/lib_net/lib_net.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_net/lib_net.iml" filepath="$PROJECT_DIR$/lib_net/lib_net.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_utils/lib_utils.iml" filepath="$PROJECT_DIR$/lib_utils/lib_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_utils/lib_utils.iml" filepath="$PROJECT_DIR$/lib_utils/lib_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_view/lib_view.iml" filepath="$PROJECT_DIR$/lib_view/lib_view.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_view/lib_view.iml" filepath="$PROJECT_DIR$/lib_view/lib_view.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_base/module_base.iml" filepath="$PROJECT_DIR$/module_base/module_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_base/module_base.iml" filepath="$PROJECT_DIR$/module_base/module_base.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_common/module_common.iml" filepath="$PROJECT_DIR$/module_common/module_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_common/module_common.iml" filepath="$PROJECT_DIR$/module_common/module_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_constants/module_constants.iml" filepath="$PROJECT_DIR$/module_constants/module_constants.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_constants/module_constants.iml" filepath="$PROJECT_DIR$/module_constants/module_constants.iml" />
     </modules>
   </component>

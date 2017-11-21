@@ -3,9 +3,9 @@
 This is a android componentizate project.
 ## 下载应用
 
-- 蒲公英
+- [Fir](https://fir.im/dlke?release_id=5a144329ca87a827040001a7)
 
-![](https://www.pgyer.com/app/qrcode/TICb)
+![](http://oqle0m5m6.bkt.clouddn.com/zujianhua.png)
 ## 使用到的开源框架
 
 - [ActivityRouter](https://github.com/mzule/ActivityRouter)
