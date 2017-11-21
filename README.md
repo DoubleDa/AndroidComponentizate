@@ -1,6 +1,6 @@
 # Android组件化
 
-This is a android componentizate project.
+This is a android componentizate project.If you want to know more details,please visit the [website](http://www.dayongxin.com/2017/04/17/android-component-demo/)
 ## 下载应用
 
 - [Fir](https://fir.im/dlke?release_id=5a144329ca87a827040001a7)
